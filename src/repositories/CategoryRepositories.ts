@@ -4,7 +4,6 @@ interface ICreateCategoryDTO {
   name: string;
   description: string;
 }
-
 class CategoryRepositery {
   private categories: Category[];
 
